@@ -1,0 +1,6 @@
+class Bicicleta extends Vehiculo {
+    @Override
+    public void mover() {
+        System.out.println("La bicicleta avanza por la ciclorruta pedaleando.");
+    }
+}
